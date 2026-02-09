@@ -1,50 +1,61 @@
-Hotel Management System (Java + MySQL)
-A desktop-based Hotel Management System developed using Java (Swing & AWT) and MySQL, aimed at automating and managing day-to-day hotel operations such as customer handling, room allocation, employee management, pickup services, and billing.
+🏨 Hotel Management System (Java + MySQL)
 
-The system provides a clean graphical interface, efficient database integration, and modular design, making it suitable for academic projects and real-world use cases.
+A desktop-based Hotel Management System developed using Java (Swing & AWT) and MySQL.
+This application helps in automating day-to-day hotel operations such as customer management, room allocation, employee handling, pickup services, and billing.
 
-Key Features
+The project is designed with a clean GUI, efficient database connectivity, and modular structure, making it ideal for college mini/major projects and resume showcase.
 
-Authentication
+🚀 Features
+🔐 Authentication
+
 Secure Admin Login
+
 Controlled access to hotel operations
 
-Customer & Room Management
+🛎️ Customer & Room Management
+
 New customer registration with ID verification
-Room assignment during check-in
+
+Room allocation during check-in
+
 Real-time room availability tracking
+
 Checkout with automatic timestamp generation
+
 Update room and customer status
 
-Employee Management
+👨‍💼 Employee Management
 
 Add and manage employee details
-Job role, salary, contact, and Aadhaar tracking
-View all employee information
 
-Pickup & Driver Services
+Track job role, salary, contact number, and Aadhaar
+
+View complete employee information
+
+🚗 Pickup & Driver Services
 
 Add drivers with vehicle details
+
 Pickup service based on car type and availability
+
 Location-based service assignment
 
-Administration
+🧑‍💻 Administration
 
 Department-wise budget overview
+
 Manager and customer information panels
-Search rooms using filters (bed type, availability)
 
+Room search with filters (bed type, availability)
 
-Tech Stack
+| Technology   | Usage                   |
+| ------------ | ----------------------- |
+| Java         | Core application logic  |
+| Swing & AWT  | GUI development         |
+| MySQL        | Database                |
+| JDBC         | Database connectivity   |
+| NetBeans IDE | Development environment |
 
-Technology	            Usage
-Java	           Core application logic
-Swing & AWT	       GUI development
-MySQL	           Database
-JDBC	           Database connectivity
-NetBeans IDE	   Development environment
-
-📁 Project Structure
 
 Hotel-Management-System/
 │
@@ -65,24 +76,7 @@ Hotel-Management-System/
 │   └── Conn.java
 │
 ├── icons/
-│
 ├── screenshots/
-│   ├── splash.png
-│   ├── login.png
-│   ├── dashboard.png
-│   ├── new_customer.png
-│   ├── add_rooms.png
-│   ├── add_employee.png
-│   ├── add_driver.png
-│   ├── search_room.png
-│   ├── pickup_service.png
-│   ├── update_status.png
-│   ├── checkout.png
-│   ├── department.png
-│   ├── customer_info.png
-│   ├── manager_info.png
-│   └── reception.png
-│
 ├── libraries/
 │   ├── mysql-connector-java-8.0.28.jar
 │   ├── rs2xml.jar
@@ -90,52 +84,73 @@ Hotel-Management-System/
 │
 └── README.md
 
-Installation & Setup
+⚙️ Installation & Setup
+1️⃣ Prerequisites
 
-1️. Prerequisites
 JDK 21 or compatible
+
 MySQL Server
+
 Apache NetBeans IDE
 
-2️. Database Configuration
+2️⃣ Database Configuration
+
 Create a MySQL database (example: hotelmanagementsystem)
+
 Create required tables
+
 Update database credentials in Conn.java
 
 DriverManager.getConnection(
-  "jdbc:mysql://localhost:3306/hotelmanagementsystem",
-  "username",
-  "password"
+    "jdbc:mysql://localhost:3306/hotelmanagementsystem",
+    "username",
+    "password"
 );
 
-Run the Application
+3️⃣ Run the Application
 
-1. Open the project in Apache NetBeans IDE
-2. Add the required .jar libraries:
-   mysql-connector-java
-   rs2xml
-   jcalendar
-Run the Login.java file to start the application
+Open the project in Apache NetBeans IDE
 
-Project Use Case
+Add required .jar libraries:
 
-This project is suitable for:
+mysql-connector-java
+
+rs2xml
+
+jcalendar
+
+Run Login.java to start the application
+
+🎯 Use Cases
+
+This project is ideal for:
 
 College Mini / Major Projects
-Java + SQL based resume projects
-Learning Java Swing GUI development
-Understanding JDBC & MySQL database integration
 
-Future Enhancements
+Java + SQL resume projects
+
+Learning Java Swing GUI development
+
+Understanding JDBC & MySQL integration
+
+🔮 Future Enhancements
 
 Role-based login (Admin / Receptionist)
+
 Bill & invoice PDF generation
+
 Online room booking module
-Improved input validation and security
+
+Improved input validation & security
+
 Migration to JavaFX or web-based UI
 
-Author
+👨‍💻 Author
 
 Ayush Seth
 Computer Science & Engineering
 Java | SQL | Desktop Applications
+
+📌 About
+
+A desktop-based Hotel Management System built using Java (Swing & AWT) and MySQL to efficiently manage hotel operations including room allocation, customer check-in/check-out, employee management, and pickup services.
