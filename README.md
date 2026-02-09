@@ -85,6 +85,7 @@ Hotel-Management-System/
 └── README.md
 
 ⚙️ Installation & Setup
+
 1️⃣ Prerequisites
 
 JDK 21 or compatible
